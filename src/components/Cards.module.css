@@ -1,0 +1,75 @@
+.containerCarta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 190px;
+    height: 240px;
+    background: linear-gradient(35deg, #ff00d45b, #ffffff16);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    backdrop-filter: blur(0.8px);
+    cursor: none;
+}
+
+.containerCarta:hover { background: linear-gradient(35deg, #ffae005b, #ffffff16);}
+
+.cartas {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 14.2em;
+    position: absolute;
+    top: -.7em;
+    transform: scale(130%);
+  }
+
+.nombreCiudad {
+    font-family: Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    margin-top: -.2em;
+    color: #111;
+}
+
+.temps {
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.min {
+    height: 10px;
+    margin-left: .5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.max {
+    height: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.imagenClima {
+    display: flex;
+    justify-content: center;
+    width:  140px;
+    height: 90px;
+    object-fit: cover;
+    margin-bottom: 1em;
+    position: relative;
+    top: 35px;
+}

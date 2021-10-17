@@ -1,0 +1,49 @@
+body { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.container{
+  width: 25%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buscador {
+  right: 140%;
+  margin-top: -50px;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  height: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 4px groove orangered;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input:hover, .input:focus {
+  background-color: #9991;
+  background: linear-gradient(to top, #1116, transparent);
+  transition: 16s;
+}
+
+.input::placeholder{ color: orange; }
+
+.btn {
+  width: 40px;
+  height: 36px;
+  margin-left: 10px;
+  border: none;
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
