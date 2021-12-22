@@ -47,3 +47,23 @@ body { font-family: Verdana, Geneva, Tahoma, sans-serif; }
   font-size: 20px;
 }
 
+
+@media screen and (max-width: 415px) {
+  .container{
+    width: 20% ;
+    position: absolute;
+    top: 57px;
+    left: 170px;
+    transform: translate(-50%, -50%);
+  }
+  .input {
+    width: 130px;
+  }
+  .input::placeholder{ 
+    color: orange; 
+    content: algo;
+  }
+}
+
+
+

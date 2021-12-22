@@ -9,7 +9,7 @@ const SearchBar = () => {
   const [search, setSearch] = useState("");
 
   const handleKeyDown = evt => {
-    if (evt.key == 'Enter') {
+    if (evt.key === 'Enter') {
       evt.preventDefault();
       dispatch(addCity(search));
       setSearch('');

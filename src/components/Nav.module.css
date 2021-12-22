@@ -16,5 +16,12 @@
   transform: scale(120%);
 }
 
-/* .h1{
-} */
+@media screen and (max-width: 415px) {
+  .nav {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    right: 0.8rem;
+    top: -20px;
+  }
+}
