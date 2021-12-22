@@ -14,8 +14,7 @@ body {
 @media screen and (max-width: 415px) {
 
   body {
-    background: #1a011a;
-    background: url("https://i.pinimg.com/originals/5e/78/19/5e78194eeaaa95445025b0588da23381.jpg");
+    background: url('./components/imgs/background2.jpg');
     background-size: 140%;
     background-position-x: center;
     background-repeat: no-repeat;

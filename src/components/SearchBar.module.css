@@ -58,10 +58,10 @@ body { font-family: Verdana, Geneva, Tahoma, sans-serif; }
   }
   .input {
     width: 130px;
+    border-bottom: 4px groove #f31db3;
   }
   .input::placeholder{ 
-    color: orange; 
-    content: algo;
+    color: #dd455f; 
   }
 }
 
