@@ -55,7 +55,7 @@
     margin-left: .5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
-}
+} 
 
 .max {
     height: 10px;
@@ -72,4 +72,17 @@
     margin-bottom: 1em;
     position: relative;
     top: 35px;
+}
+
+@media screen and (max-width: 415px) {
+    .cartas {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
 }

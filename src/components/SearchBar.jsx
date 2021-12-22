@@ -33,7 +33,7 @@ const SearchBar = () => {
           className = { styles.input }
           autoComplete = "off"
           name = 'city'
-          placeholder = "Search a city to know his weather..."
+          placeholder = "Search a city..."
           onKeyDown = { handleKeyDown }
           value = { search }
           onChange = { handleChange }
