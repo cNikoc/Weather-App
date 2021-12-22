@@ -1,4 +1,13 @@
 .flecha {
-    color: red;
-    background: yellow;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    right: 4.3rem;
+    top: 2.3rem;
+    animation: bounce 0.4s alternate ease-in infinite;
+}
+
+@keyframes bounce {
+    0% {transform: translateY(9px);}
+    100% {transform: translateY(-7px);}
 }
