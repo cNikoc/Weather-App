@@ -85,4 +85,7 @@
         transform: translate(-50%, -50%);
         overflow: hidden;
     }
+    .containerCarta {
+        margin-bottom: 70px;
+    }
 }
